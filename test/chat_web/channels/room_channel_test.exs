@@ -1,3 +1,4 @@
+
 defmodule ChatWeb.RoomChannelTest do
   use ChatWeb.ChannelCase
 
@@ -24,4 +25,5 @@ defmodule ChatWeb.RoomChannelTest do
     broadcast_from! socket, "broadcast", %{"some" => "data"}
     assert_push "broadcast", %{"some" => "data"}
   end
+
 end
