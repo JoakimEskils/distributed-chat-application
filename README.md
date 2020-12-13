@@ -6,7 +6,7 @@ This is a distributed chat application written in Elixir / Phoenix. Once running
 
 ## Install & run
 
-  * Install postgresql
+  * Install Elxiri, phoenix & postgresql
   * Install dependencies with `mix deps.get`
   * Start Phoenix endpoint with `mix phx.server`
 
